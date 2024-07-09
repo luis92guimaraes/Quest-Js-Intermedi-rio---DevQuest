@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Quest Form</title>
+</head>
+<body>
+    <main class="container">
+        <div class="content">
+            <h1 class="title">ficou com dúvida? <br> nos mande uma mensagem!</h1>
+            <p class="text">caso tenha ficado com qualquer dúvida basta nos mandar mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="form">
+            <form id="form">
+                <input class="campo" type="text" name="nome" placeholder="Nome completo *">
+                <span class="esconder">campo obrigatório</span>
+
+                <input class="campo" type="text" name="email" placeholder="Email *">
+                <span class="esconder">campo obrigatório</span>
+
+                <input class="campo" type="tel" name="telefone" placeholder="Telefone *">
+                <span class="esconder">campo obrigatório</span>
+
+                <textarea name="message" class="mensagem campo" placeholder="Mensagem *"></textarea>
+                <span class="esconder">campo obrigatório</span>
+
+                <p class="info">*campos obrigatórios</p>
+
+                <button type="submit" class="enviar" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
